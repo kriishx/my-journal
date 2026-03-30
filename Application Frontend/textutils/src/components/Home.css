@@ -1,0 +1,17 @@
+.home-container.light {
+  background-color: white;
+  color: black;
+}
+
+.home-container.dark {
+  background-color: #1e1e2f;
+  color: #f0f0f0;
+}
+
+.home-image {
+  transition: transform 0.3s ease;
+}
+
+.home-image:hover {
+  transform: scale(1.05);
+}
